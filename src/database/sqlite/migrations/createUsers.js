@@ -3,6 +3,7 @@ const createUsers = `
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name VARCHAR,
         email VARCHAR,
+        isAdmin INTEGER,
         password VARCHAR,
         school VARCHAR,
         avatar VARCHAR NULL,
